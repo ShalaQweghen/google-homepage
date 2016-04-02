@@ -1,0 +1,160 @@
+body {
+	padding: 0 0 0 0;
+}
+li {
+	display: inline;
+	font-family: arial;
+	font-size: 12px;
+	padding: 0 10px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: arial;
+	opacity: 0.85;
+}
+a:hover {
+	text-decoration: underline;
+}
+#shala {
+	opacity: 0.55;
+}
+#up {
+	display: inline;
+	position: absolute;
+	right: 170px;
+	top: 5px;
+}
+#down1 {
+	display: inline;
+	position: absolute;
+	left: -15px;
+	top: -7px;
+}
+#down2 {
+	display: inline;
+	position: absolute;
+	right: 40px;
+	top: -7px;
+}
+#up li {
+	padding: 0 10px;
+}
+#bell {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	display: inline;
+	position: absolute;
+	right: 75px;
+	top: 20px;
+	opacity: 0.60;
+}
+#ben {
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	display: inline;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+#app {
+	width: 17px;
+	height: 17px;
+	display: inline;
+	position: absolute;
+	right: 120px;
+	top: 23px;
+	opacity: 0.60;
+}
+#bell:hover, #app:hover {
+	opacity: 1;
+}
+#google {
+	position: relative;
+	left: 40%;
+	top: 130px;
+}
+form {
+	position: absolute;
+	left: 23%;
+	top: 320px;
+}
+#search {
+	position: absolute;
+	left: 70px;
+	width: 600px;
+	height: 40px;
+	border: 1px solid #e7e5e5;
+}
+#insearch {
+	position: absolute;
+	left: 5px;
+	top: 11px;
+	border: 0 solid gray;
+	vertical-align: middle;
+	font-size: 15px;
+	outline: none;
+}
+#keyboard {
+	position: absolute;
+	right: 40px;
+	top: 10px;
+}
+#mic {
+	position: absolute;
+	right: 5px;
+}
+.button {
+	display: inline-block;
+	width: 130px;
+	height: 35px;
+	border: 0 solid #e3d6d6;
+	background-color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 70px;
+	left: 180px;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+}
+.button:hover, .button1:hover {
+	border: 1px solid #e3d6d6;
+	color: #222;
+}
+.button1 {
+	display: inline-block;
+	width: 240px;
+	height: 35px;
+	border: 0 solid #e3d6d6;
+	background-color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 70px;
+	left: 320px;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+
+}
+
+footer {
+	position: absolute;
+	height:40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+}
+footer a {
+	color: #666;
+}
